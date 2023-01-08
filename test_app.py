@@ -10,5 +10,17 @@ class TestApp(unittest.TestCase):
     self.assertEqual(app.add(-1,-1),-2)
     self.assertEqual(app.add(100,5), 105)
 
+  def test_types(self):
+    user_id = '1'
+    time_stamp = 123456
+    latitude = 12367
+    longitude = 13238
+    speed = None or 3
+    self.assertTrue(type(user_id)is str)
+    self.assertTrue(type(time_stamp)is int)
+    self.assertTrue(type(latitude)is int)
+    self.assertTrue(type(longitude)is int)
+    self.assertTrue(type(speed)is int or None)
+
 if __name__ == '__main__':
   unittest.main()
