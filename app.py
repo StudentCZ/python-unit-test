@@ -11,3 +11,6 @@ def types(userid, time_stamp, latitude,longitude, speed):
         speed: None
     }
 
+def boolean():
+
+
