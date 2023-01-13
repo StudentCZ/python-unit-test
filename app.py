@@ -11,6 +11,10 @@ def types(userid, time_stamp, latitude,longitude, speed):
         speed: None
     }
 
-def boolean():
+def boolean(arg):
+    if arg == 1:
+        return "It is Number 1"
+    else:
+        return "It is not Number 1 "
 
 
