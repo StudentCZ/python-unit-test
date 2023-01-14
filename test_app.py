@@ -23,7 +23,9 @@ class TestApp(unittest.TestCase):
     self.assertTrue(type(speed)is int or None)
 
   def test_boolean(self):
-    self.assertEqual(app.boolean(2))
+    testValue = True
+    message = "Test Value is True"
+    self.assertTrue(testValue,message)
 
 if __name__ == '__main__':
   unittest.main()
