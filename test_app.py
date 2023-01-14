@@ -22,5 +22,8 @@ class TestApp(unittest.TestCase):
     self.assertTrue(type(longitude)is int)
     self.assertTrue(type(speed)is int or None)
 
+  def test_boolean(self):
+    self.assertEqual(app.boolean(2))
+
 if __name__ == '__main__':
   unittest.main()
