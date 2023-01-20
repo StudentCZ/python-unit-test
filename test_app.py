@@ -22,10 +22,11 @@ class TestApp(unittest.TestCase):
     self.assertTrue(type(longitude)is int)
     self.assertTrue(type(speed)is int or None)
 
+
   def test_boolean(self):
     testValue = True
     message = "Test Value is True"
-    self.assertTrue(testValue,message)
+    self.assertTrue(testValue, message)
 
 if __name__ == '__main__':
   unittest.main()
